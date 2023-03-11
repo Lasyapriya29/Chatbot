@@ -9,7 +9,8 @@ import mysql.connector
 
 updater = Updater('5440879489:AAFZaFxAOGj0rKNUlDycS2JSPlPYLPEe_HE')
 
-def start(update: Update, context: CallbackContext):    update.message.reply_text('Welcome to Mybot!')
+def start(update: Update, context: CallbackContext):    
+	update.message.reply_text('Welcome to Mybot!')
 
 def help(update: Update, context: CallbackContext):
 	update.message.reply_text('''These are the commands available in Mybot :-
